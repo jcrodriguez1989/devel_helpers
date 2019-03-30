@@ -41,4 +41,5 @@ ln -s $HOME/opt/$REL/$VERSION/bin/Rscript $HOME/.local/bin/"Rscript_"$VERSION;
 
 # save new libraries in current version path
 echo ".libPaths('$HOME/opt/$REL/$VERSION/lib/R/library/')" > $HOME/opt/$REL/$VERSION/.Rprofile
+
 $HOME/.local/bin/$VERSION;
